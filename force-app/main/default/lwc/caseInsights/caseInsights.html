@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Case Insights" icon-name="standard:case">
+        <lightning-button
+            label="Get this record insights"
+            onclick={handleClick}
+            class="slds-m-bottom_medium"
+            variant="brand">
+        </lightning-button>
+        <template if:true={loading}>
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </template>
+        <template if:true={response}>
+            <div class="slds-m-top_medium">
+                <lightning-formatted-text value={response}></lightning-formatted-text>
+            </div>
+        </template>
+    </lightning-card>
+</template>

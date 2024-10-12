@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ChatGptAPIService</members>
+		<members>ContactInserter</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>AI_API_Key</members>
+		<members>Case_Insight_Prompt</members>
+		<name>CustomLabel</name>
+	</types>
+	<types>
+		<members>caseInsights</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>OpenAI_Named_Credential</members>
+		<name>NamedCredential</name>
+	</types>
+	<types>
+		<members>contact_json</members>
+		<members>masked_custom_labels</members>
+		<name>StaticResource</name>
+	</types>
+	<version>60.0</version>
+</Package>

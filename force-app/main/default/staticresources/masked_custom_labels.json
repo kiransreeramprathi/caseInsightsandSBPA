@@ -1,0 +1,20 @@
+[
+  {
+    "attributes": {
+      "type": "ExternalString",
+      "url": "/services/data/v61.0/tooling/sobjects/ExternalString/101J4000000oxOKIAY"
+    },
+    "Id": "101J4000000oxOKIAY",
+    "Name": "test_email_2",
+    "Value": "garuda.test"
+  },
+  {
+    "attributes": {
+      "type": "ExternalString",
+      "url": "/services/data/v61.0/tooling/sobjects/ExternalString/101J4000000oxOFIAY"
+    },
+    "Id": "101J4000000oxOFIAY",
+    "Name": "test_email_1",
+    "Value": "airavath.test"
+  }
+]
